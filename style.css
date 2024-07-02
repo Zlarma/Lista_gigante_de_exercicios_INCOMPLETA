@@ -1,0 +1,130 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(61, 91, 129);
+    height: 100%;
+    text-align: center;
+    zoom: 1   ;
+}
+
+.container{
+    margin: 30px;
+    border-radius: 30px;
+    width:  700px;
+    height: 650px;
+    background: linear-gradient(to left, white, rgba(226, 226, 226, 0.726));
+    box-shadow: 0px 10px 10px black;
+}
+
+#h1{
+    margin-left: 25px;    
+}
+label{
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+    }
+
+#lv{
+    text-align: center;
+}
+
+#links{
+    display: flex;
+    justify-content: center;
+}
+#links2{
+    display: flex;
+    justify-content: center;
+}
+#links3{
+    display: flex;
+    justify-content: center;
+}
+#links4{
+    display: flex;
+    justify-content: center;
+}
+#links5{
+    display: flex;
+    justify-content: center;
+}
+#Voltar{
+    margin-top: -195px;
+    display: flex;
+
+    justify-content: center;
+}
+
+a{
+    margin: 92px;
+    border: 4px black solid;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    background: linear-gradient(to bottom, white, rgb(141, 141, 141), rgb(228, 228, 228));
+    font-family: fantasy;
+    transition: 1s;
+    box-shadow: 0px 8px 0px black;
+}
+
+a:hover{
+    transition: 1s;
+    filter: brightness(130%);
+}
+
+a:active{
+    transition: 0.2s;
+    filter: brightness(92%);
+    box-shadow: 0px 0px 0px;
+    transform: translateY(10px);
+}
+
+
+.nav{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    width: 100px;
+    margin-left: -100px;
+    margin-top: -500px;
+    height: 300px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    box-shadow: 0px 8px 0px black;
+    background-color: rgb(194, 28, 28);
+    
+}
+
+#butt1{
+    width: 70px;
+    height: 0px;
+    border-radius: 1530px;
+    margin-left: 110px;
+    margin: 92px;
+    border: 4px black solid;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    background: linear-gradient(to bottom, white, rgb(141, 141, 141), rgb(228, 228, 228));
+    font-family: fantasy;
+    margin-top:90px;
+}
+#butt2{
+    width: 70px;
+    height: 0px;
+    border-radius: 1530px;
+    margin: 92px;
+    border: 4px black solid;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    background: linear-gradient(to bottom, white, rgb(141, 141, 141), rgb(228, 228, 228));
+    font-family: fantasy;
+    margin-left: -119px;
+    margin-top:170px;
+}

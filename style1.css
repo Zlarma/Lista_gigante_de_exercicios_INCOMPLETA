@@ -1,0 +1,53 @@
+body{
+    margin: 100px;
+}
+.container{
+    margin: 30px;
+    border-radius: 30px;
+    width:  700px;
+    height: 750px;
+    background: linear-gradient(to left, white, rgba(226, 226, 226, 0.726));
+    box-shadow: 0px 10px 10px black;
+}
+
+p{
+    margin:  -10px  60px 0px 60px;
+    text-align: start;
+}
+
+
+#ibage{
+    width: 100px;
+    display: contents;
+    justify-content: center;
+    align-items: center;
+}
+
+#fluta{
+    width: 80px;
+    margin: 20px;
+}
+
+.tipo{
+    display: table;
+}
+
+
+#text{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+label{
+    transition: 0.5s;
+}
+label:hover{
+    transition: 0.5px;
+    font-size: 21px;
+}
+
+.lol{
+    width: 30px;
+    font-size: 30px;
+}
